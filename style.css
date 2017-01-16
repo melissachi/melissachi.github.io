@@ -21,3 +21,7 @@ carousel-caption {
   left: 0;
   right: 0;
 }
+.col-centered{
+float: none;
+margin: 0 auto;
+}
