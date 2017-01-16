@@ -3,30 +3,21 @@
   font-size: 24px;
   color: #ff3061;
   padding-top: 24px;
-body {
-  font-family: 'verdana', arial, sans-serif;
-  color: black;
-  font-weight: 300;
-  background-color: ##0ead6;
-  background-repeat: repeat;
-}
-#carousel-font {
-  font-family: 'Taviraj', serif;
-  color: black;
-  font-weight: 500;
-}
 .container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+carousel-caption {
+  font-size: 50px;
+}
 #wrapper {
   width: 960px;
   margin: 20px auto 20px auto;
 }
 .navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
