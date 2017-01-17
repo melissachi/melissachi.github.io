@@ -1,21 +1,21 @@
 .jumbotron {
     background-image: url("stbarths.jpg");
-    margin-bottom: 0;`enter code here`
+    margin-bottom: -10px;`enter code here`
     min-height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
 }
+#my-slider {
+  padding-top: 24px;
+}
 .navbar-inverse .navbar-brand {
   font-family: 'Pacifico', cursive;
   font-size: 24px;
   color: #32127A;
   padding-top: 24px;
-  margin-bottom: 24px;
-}
-.my-slider {
-  margin-top: 24px;
+  margin-bottom: 20px;
 }
 .row {
   font-family: 'Taviraj', serif;
@@ -41,7 +41,6 @@ body {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 15px;
 }
 #wrapper {
   width: 960px;
