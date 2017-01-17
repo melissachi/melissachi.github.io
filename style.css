@@ -12,17 +12,22 @@
   font-size: 24px;
   color: #32127A;
   padding-top: 24px;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.my-slider {
+  margin-top: 24px;
 }
 .row {
   font-family: 'Taviraj', serif;
   padding-top: 20px;
   font-size: 18px;
+  text-align: center;
   color: #32127A;
 }
 body {
   font-family: 'Taviraj', serif;
   color: #32127A;
+  text-align: center;
   font-weight: 300;
   background-repeat: repeat;
 }
@@ -36,6 +41,7 @@ body {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 15px;
 }
 #wrapper {
   width: 960px;
@@ -46,4 +52,13 @@ body {
     top: 0;
     left: 0;
     right: 0;
+}
+// 1- Get window width
+var windowWidth = $(window).width();
+
+// 2- For all devices under or at 768px, use horizontal orientation
+if(windowWidth <= 768) {
+  $('.demo-slider').slick({
+    vertical: false;
+  });
 }
