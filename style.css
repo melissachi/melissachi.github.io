@@ -18,11 +18,11 @@
   font-family: 'Taviraj', serif;
   padding-top: 20px;
   font-size: 18px;
-  color: #ff3061;
+  color: #32127A;
 }
 body {
   font-family: 'Taviraj', serif;
-  color: white;
+  color: #32127A;
   font-weight: 300;
   background-repeat: repeat;
 }
@@ -36,10 +36,6 @@ body {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
-#h2 {
-  font-family: 'Taviraj', serif;
-  color: blue;
 }
 #wrapper {
   width: 960px;
