@@ -6,9 +6,11 @@
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
+    position: relative;
 }
 #my-slider {
   padding-top: 24px;
+  position: relative;
 }
 .navbar-inverse .navbar-brand {
   font-family: 'Pacifico', cursive;
@@ -23,6 +25,7 @@
   font-size: 18px;
   text-align: center;
   color: #32127A;
+  position: relative;
 }
 body {
   font-family: 'Taviraj', serif;
